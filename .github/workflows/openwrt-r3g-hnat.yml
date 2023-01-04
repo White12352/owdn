@@ -57,6 +57,8 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
+        rm -rf openwrt/target/linux/ramips
+        svn co https://github.com/padavanonly/immortalwrt/trunk/target/linux/ramips openwrt/target/linux/ramips
 
     - name: Load custom feeds
       run: |
