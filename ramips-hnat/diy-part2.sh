@@ -59,4 +59,4 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git
 git clone https://github.com/destan19/OpenAppFilter.git
 popd
 # 把bootstrap替换成argon为源码必选主题（可自行修改您要的,主题名称必须对,比如下面代码的[argon],源码内必须有该主题,要不然编译失败）
-#sed -i "s/bootstrap/argon-18.06/ig" feeds/luci/collections/luci/Makefile
+sed -i "s/bootstrap/argon-18.06/ig" feeds/luci/collections/luci/Makefile
