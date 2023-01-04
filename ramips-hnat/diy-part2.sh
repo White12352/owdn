@@ -43,6 +43,8 @@ git clone --depth 1 -b luci https://github.com/xiaorouji/openwrt-passwall packag
 #rm -rf package/feeds/luci/luci-theme-neobird
 #git clone https://github.com/lwb1978/luci-theme-neobird.git package/feeds/luci/luci-theme-neobird
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/feeds/luci/luci-theme-argon-18.06
+rm -rf package/luci-app-unblockneteasemusic
+git clone -b master https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 
 pushd package/emortal/
 #rm -rf lua-maxminddb
