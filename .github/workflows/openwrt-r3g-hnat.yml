@@ -57,11 +57,11 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-        rm -rf openwrt/target/linux/ramips
-        svn co https://github.com/padavanonly/immortalwrt/trunk/target/linux/ramips openwrt/target/linux/ramips
 
     - name: Load custom feeds
       run: |
+        rm -rf openwrt/target/linux/ramips
+        svn co https://github.com/padavanonly/immortalwrt/trunk/target/linux/ramips openwrt/target/linux/ramips
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
         cd openwrt
@@ -96,7 +96,7 @@ jobs:
         cd openwrt
         make defconfig
         curl -fsSL git.io/file-transfer | sh
-        ./transfer wet -s -p 16 --no-progress .config.r3g.hnat 2>&1 | tee wetransfer.log
+        ./transfer wet -s -p 16 --no-progress .config 2>&1 | tee wetransfer.log
         echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
         echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
     
