@@ -31,7 +31,7 @@ rm -rf package/helloworld
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 rm -rf package/passwall
 #git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
-git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
+#git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone --depth 1 -b packages https://github.com/xiaorouji/openwrt-passwall package/passwall
 git clone --depth 1 -b luci https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 #rm -rf package/feeds/luci/luci-theme-neobird
