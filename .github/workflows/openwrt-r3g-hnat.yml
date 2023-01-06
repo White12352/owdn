@@ -16,8 +16,8 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-18.06-k5.4
+  REPO_URL: https://github.com/padavanonly/immortalwrt
+  REPO_BRANCH: master
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf.default.bak
   CONFIG_FILE: ramips-hnat/.config.r3g.hnat
