@@ -50,8 +50,8 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliyundrive-we
 #rm -rf package/feeds/luci/luci-theme-neobird
 #git clone https://github.com/lwb1978/luci-theme-neobird.git package/feeds/luci/luci-theme-neobird
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/feeds/luci/luci-theme-argon-18.06
-rm -rf feeds/luci/applications/luci-app-unblockneteasemusic
-git clone -b master https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+#rm -rf feeds/luci/applications/luci-app-unblockneteasemusic
+#git clone -b master https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 rm -rf feeds/luci/applications/luci-app-argon-config
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 rm -rf feeds/luci/applications/luci-app-omcproxy
