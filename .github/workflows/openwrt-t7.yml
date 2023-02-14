@@ -17,7 +17,7 @@ on:
 
 env:
   REPO_URL: https://github.com/padavanonly/immortalwrtARM
-  REPO_BRANCH: mt7622
+  REPO_BRANCH: mt7981
   FILES: arm_64/files
   FEEDS_CONF: arm_64/feeds.conf.default.bak
   CONFIG_FILE: arm_64/.config.t7
