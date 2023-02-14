@@ -2,7 +2,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt R3G Hnat
+name: OpenWrt T7
 
 on:
   repository_dispatch:
