@@ -37,6 +37,9 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-easymesh packa
 #svn co https://github.com/281677160/openwrt-package/trunk/mosdns package/mosdns
 #rm -rf package/helloworld
 rm -rf feeds/luci/applications/luci-app-ssr-plus
+rm -rf feeds/packages/net/hysteria
+rm -rf feeds/packages/net/naiveproxy
+rm -rf feeds/packages/net/xray-core
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-vssr
