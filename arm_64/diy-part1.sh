@@ -22,4 +22,4 @@ rm -f feeds.conf.default
 echo 'src-git packages https://github.com/immortalwrt/packages.git^f6666db' >>feeds.conf.default
 echo 'src-git luci https://github.com/immortalwrt/luci.git^7afcfb2' >>feeds.conf.default
 echo 'src-git routing https://github.com/openwrt/routing.git^c470bff' >>feeds.conf.default
-echo 'src-git telephony https://github.com/openwrt/telephony.git^3cf295a' >>feeds.conf.default
+echo 'src-git telephony https://github.com/openwrt/telephony.git^b1bfd7d' >>feeds.conf.default
