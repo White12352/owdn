@@ -18,8 +18,8 @@
 
 # rm -rf target/linux/ramips
 # svn export https://github.com/padavanonly/immortalwrt/trunk/target/linux/ramips target/linux/ramips
-rm -f feeds.conf.default
-echo 'src-git packages https://github.com/immortalwrt/packages.git^94e7da6301' >>feeds.conf.default
-echo 'src-git luci https://github.com/immortalwrt/luci.git^381482cff5' >>feeds.conf.default
-echo 'src-git routing https://github.com/openwrt/routing.git^c2f9428ac5' >>feeds.conf.default
-echo 'src-git telephony https://github.com/openwrt/telephony.git^0403af50b1' >>feeds.conf.default
+#rm -f feeds.conf.default
+#echo 'src-git packages https://github.com/immortalwrt/packages.git^94e7da6301' >>feeds.conf.default
+#echo 'src-git luci https://github.com/immortalwrt/luci.git^381482cff5' >>feeds.conf.default
+#echo 'src-git routing https://github.com/openwrt/routing.git^c2f9428ac5' >>feeds.conf.default
+#echo 'src-git telephony https://github.com/openwrt/telephony.git^0403af50b1' >>feeds.conf.default
