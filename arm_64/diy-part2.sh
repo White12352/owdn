@@ -64,11 +64,11 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 #rm -rf feeds/luci/applications/luci-app-omcproxy
 #git clone -b 18.06 https://github.com/lwb1978/luci-app-omcproxy.git package/luci-app-omcproxy
 #git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-rm -rf feeds/packages/net/v2ray-geodata
-find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
-find ./ | grep Makefile | grep mosdns | xargs rm -f
+#rm -rf feeds/packages/net/v2ray-geodata
+#find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
+#find ./ | grep Makefile | grep mosdns | xargs rm -f
 
-git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+#git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
+#git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # 把bootstrap替换成argon为源码必选主题（可自行修改您要的,主题名称必须对,比如下面代码的[argon],源码内必须有该主题,要不然编译失败）
 sed -i "s/bootstrap/argon-18.06/ig" feeds/luci/collections/luci/Makefile
