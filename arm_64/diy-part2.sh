@@ -43,13 +43,13 @@ rm -rf feeds/packages/net/xray-core
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-vssr
-rm -rf feeds/packages/lang/lua-maxminddb
+#rm -rf feeds/packages/lang/lua-maxminddb
 rm -rf feeds/luci/applications/luci-app-openclash
 git clone --depth 1 -b master https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone --depth 1 -b packages https://github.com/xiaorouji/openwrt-passwall package/passwall
 git clone --depth 1 -b luci https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-git clone --depth 1 -b master https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone --depth 1 -b master https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+#git clone --depth 1 -b master https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+#git clone --depth 1 -b master https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 rm -rf feeds/luci/applications/luci-app-smartdns
 rm -rf feeds/packages/net/smartdns
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-smartdns package/luci-app-smartdns
