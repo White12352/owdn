@@ -33,7 +33,8 @@ rm -rf feeds/luci/applications/luci-app-adguardhome
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-adguardhome package/luci-app-adguardhome
 svn co https://github.com/281677160/openwrt-package/trunk/adguardhome package/adguardhome
 rm -rf feeds/luci/applications/luci-app-eqos
-svn co https://github.com/White12352/luci/branches/openwrt-18.06-k5.4/applications/luci-app-eqos package/luci-app-eqos
+#svn co https://github.com/White12352/luci/branches/openwrt-18.06-k5.4/applications/luci-app-eqos package/luci-app-eqos
+git clone --depth 1 -b main https://github.com/TorBoxCode/luci-app-eqos package/luci-app-eqos
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-easymesh package/luci-app-easymesh
 #svn co https://github.com/281677160/openwrt-package/trunk/luci-app-adguardhome package/luci-app-mosdns
 #svn co https://github.com/281677160/openwrt-package/trunk/mosdns package/mosdns
