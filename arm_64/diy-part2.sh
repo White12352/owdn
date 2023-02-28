@@ -39,9 +39,29 @@ svn co https://github.com/White12352/luci/branches/openwrt-18.06-k5.4/applicatio
 #svn co https://github.com/281677160/openwrt-package/trunk/mosdns package/mosdns
 #rm -rf package/helloworld
 rm -rf feeds/luci/applications/luci-app-ssr-plus
+rm -rf feeds/packages/net/brook
+rm -rf feeds/packages/net/chinadns-ng
+rm -rf feeds/packages/net/dns2socks
+rm -rf feeds/packages/net/dns2tcp
 rm -rf feeds/packages/net/hysteria
+rm -rf feeds/packages/net/ipt2socks
+rm -rf feeds/packages/net/microsocks
 rm -rf feeds/packages/net/naiveproxy
+rm -rf feeds/packages/net/pdnsd-alt
+rm -rf feeds/packages/net/sagernet-core
+rm -rf feeds/packages/net/shadowsocks-rust
+rm -rf feeds/packages/net/shadowsocksr-libev
+rm -rf feeds/packages/net/simple-obfs
+rm -rf feeds/packages/net/sing-box
+rm -rf feeds/packages/net/ssocks
+rm -rf feeds/packages/net/tcping
+rm -rf feeds/packages/net/trojan-go
+rm -rf feeds/packages/net/trojan-plus
+rm -rf feeds/packages/net/trojan
+rm -rf feeds/packages/net/v2ray-core
+rm -rf feeds/packages/net/v2ray-plugin
 rm -rf feeds/packages/net/xray-core
+rm -rf feeds/packages/net/xray-plugin
 #git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-vssr
@@ -57,6 +77,7 @@ rm -rf feeds/luci/applications/luci-app-smartdns
 rm -rf feeds/packages/net/smartdns
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-smartdns package/luci-app-smartdns
 svn co https://github.com/281677160/openwrt-package/trunk/smartdns package/smartdns
+rm -rf feeds/luci/applications/luci-app-turboacc
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/aliyundrive-webdav package/aliyundrive-webdav
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliyundrive-webdav package/luci-app-aliyundrive-webdav
 git clone --depth=1 https://github.com/messense/aliyundrive-webdav.git package/aliyundrive-webdav
