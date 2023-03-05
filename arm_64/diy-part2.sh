@@ -28,6 +28,11 @@ sed -i 's/192.168.6.1/192.168.5.5/g' package/base-files/files/bin/config_generat
 
 # git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 # git clone https://github.com/small-5/luci-app-adblock-plus package/adblock-plus
+rm -rf feeds/packages/lang/golang
+svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
+rm -rf feeds/packages/lang/node
+svn co https://github.com/openwrt/packages/trunk/lang/node feeds/packages/lang/node
+git clone --depth 1 -b master https://github.com/sbwml/luci-app-alist package/alist
 rm -rf feeds/packages/net/adguardhome
 rm -rf feeds/luci/applications/luci-app-adguardhome
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-adguardhome package/luci-app-adguardhome
