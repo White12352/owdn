@@ -37,9 +37,9 @@ rm -rf feeds/packages/net/adguardhome
 rm -rf feeds/luci/applications/luci-app-adguardhome
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-adguardhome package/luci-app-adguardhome
 svn co https://github.com/281677160/openwrt-package/trunk/adguardhome package/adguardhome
-rm -rf feeds/luci/applications/luci-app-eqos
+#rm -rf feeds/luci/applications/luci-app-eqos
 #svn co https://github.com/White12352/luci/branches/openwrt-18.06-k5.4/applications/luci-app-eqos package/luci-app-eqos
-git clone --depth 1 -b main https://github.com/TorBoxCode/luci-app-eqos package/luci-app-eqos
+#git clone --depth 1 -b main https://github.com/TorBoxCode/luci-app-eqos package/luci-app-eqos
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-easymesh package/luci-app-easymesh
 #svn co https://github.com/281677160/openwrt-package/trunk/luci-app-adguardhome package/luci-app-mosdns
 #svn co https://github.com/281677160/openwrt-package/trunk/mosdns package/mosdns
@@ -75,8 +75,8 @@ rm -rf feeds/luci/applications/luci-app-vssr
 rm -rf feeds/luci/applications/luci-app-openclash
 git clone --depth 1 -b master https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone --depth 1 -b packages https://github.com/xiaorouji/openwrt-passwall package/passwall
-git clone --depth 1 -b luci https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-#git clone --depth 1 -b luci-smartdns-new-version https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall-smartdns-new-version
+#git clone --depth 1 -b luci https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+git clone --depth 1 -b luci-smartdns-new-version https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall-smartdns-new-version
 #git clone --depth 1 -b master https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone --depth 1 -b master https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 rm -rf feeds/luci/applications/luci-app-smartdns
